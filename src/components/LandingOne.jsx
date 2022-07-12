@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import '../styles/css/landingOne.css'
 import CentImage from '../images/jumb_kibet.png'
+import { Link } from 'react-router-dom'
 
 const LandingOne = () => {
   return (
@@ -13,7 +14,27 @@ const LandingOne = () => {
                     <div className="landingOneCenterImage">
                         <img src={CentImage} alt="" />
                     </div>
-                    <header className="headerOne"></header>
+                    <header className="headerOne">
+                        <nav className="navigation">
+                            <ul>
+                                <li className="linkDarkText">
+                                    <Link className="OneLinks" to="/" >Home</Link>
+                                </li>
+                                <li className="linkDarkText">
+                                    <Link className="OneLinks" to="" >Shop</Link>
+                                </li>
+                                <li className="linkDarkText logoLink">
+                                    <Link className="OneLinks logo" to="/" >Le<span>Bo</span></Link>
+                                </li>
+                                <li className="linkWhiteText">
+                                    <Link className="OneLinks" to="" >Categories</Link>
+                                </li>
+                                <li className="linkWhiteText">
+                                    <Link className="OneLinks" to="" >About</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
                     <div className="textOverlay"></div>
                 </div>
             </div>

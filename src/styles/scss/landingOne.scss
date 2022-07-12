@@ -31,11 +31,52 @@
             .headerOne{
                 position: absolute;
                 top: 0;
-                z-index: 1;
-                margin-top: 20px;
-                background-color: rgb(138, 255, 181);
-                height: 70px;
+                z-index: 3;
+                margin-top: 30px;
+                background-color: transparent;
+                height: min-content;
                 width: 100%;
+                .navigation{
+                    ul{
+                        height: 70px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        li{
+                            margin: 0 3%;
+                            .OneLinks{
+                                padding: 10px 20px;
+                                height: 100%;
+                                width: 100%;
+                                cursor: pointer !important;
+                                margin: 10px;
+                                font-size: 1.4rem;
+                            }
+                            .logo{
+                                font-size: 3.5rem;
+                                font-weight: 800;
+                                margin-right: -50px;
+                                span{
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .logoLink{
+                            margin: 0 6%;
+                        }
+                        .linkWhiteText{
+                            .OneLinks{
+                                color: var(--text-color-light);
+                            }
+                        }
+                        .linkDarkText{
+                            .OneLinks{
+                                color: var(--back-color-right-lOne);
+                            }
+                        }
+                    }
+                }
             }
             .textOverlay{
                 position: absolute;
