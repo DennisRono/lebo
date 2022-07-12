@@ -30,4 +30,11 @@ p {
 
 a, a:visited, a:active {
   text-decoration: none;
+}
+
+:root {
+  --main-background-light: #e3d4ff;
+  --text-color-light: #202020;
+  --back-color-left-lOne: #ffffff;
+  --back-color-right-lOne: #7341ff;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,52 @@
+.landingOne {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.landingOne .landingOneWrapper .landingOneBackParent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .landingOneBackLeft {
+  background-color: var(--back-color-left-lOne);
+  width: 50%;
+  height: 100vh;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .landingOneBackRight {
+  background-color: var(--back-color-right-lOne);
+  width: 50%;
+  height: 100vh;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .landingOneCenterImage {
+  height: 80vh;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .landingOneCenterImage img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .headerOne {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  margin-top: 20px;
+  background-color: rgb(138, 255, 181);
+  height: 70px;
+  width: 100%;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 2;
+}/*# sourceMappingURL=landingOne.css.map */
