@@ -35,7 +35,13 @@ const LandingOne = () => {
                             </ul>
                         </nav>
                     </header>
-                    <div className="textOverlay"></div>
+                    <div className="textOverlay">
+                        <div className="overlayWapper">
+                            <div className="txtCachy">
+                                <h1 className="ChachyText">desi<span>gner</span></h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

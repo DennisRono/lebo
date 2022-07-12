@@ -24,7 +24,7 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 4;
 }
 .landingOne .landingOneWrapper .landingOneBackParent .landingOneCenterImage img {
   height: 100%;
@@ -86,4 +86,23 @@
   bottom: 0;
   background-color: transparent;
   z-index: 2;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText {
+  text-transform: uppercase;
+  font-size: 20rem;
+  color: var(--back-color-right-lOne);
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText span {
+  color: var(--text-color-light);
 }/*# sourceMappingURL=landingOne.css.map */
