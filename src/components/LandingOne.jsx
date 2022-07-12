@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 
-const Header = () => {
+const LandingOne = () => {
   return (
     <Fragment>
         
@@ -8,4 +8,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default LandingOne
