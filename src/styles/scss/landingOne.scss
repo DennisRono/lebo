@@ -16,6 +16,9 @@
                 height: 100vh;
             }
             .landingOneCenterImage{
+                @media(max-width: 500px){
+                    display: none !important;
+                }
                 height: 80vh;
                 position: absolute;
                 top: 60%;
@@ -99,6 +102,15 @@
                             @media(max-width:1440px){
                                 font-size: 16rem;
                             }
+                            @media(max-width:1000px){
+                                font-size: 12rem;
+                            }
+                            @media(max-width:850px){
+                                font-size: 10rem;
+                            }
+                            @media(max-width:700px){
+                                font-size: 8rem;
+                            }
                             text-transform: uppercase;
                             font-size: 20rem;
                             color: var(--back-color-right-lOne);
@@ -133,6 +145,71 @@
                         }
                     }
                 }
+            }
+            .ovPatchyOne, .ovPatchyTwo, .ovPatchyThree{
+                position: absolute;
+                z-index: 5;
+                width: 250px;
+                height: 100px;
+                background-color: #ffffff63;
+                .PatchyOvWrapper{
+                    position: relative;
+                    display: flex;
+                    padding: 10px;
+                    height: 100%;
+                    .attractaImagio{
+                        width: 40%;
+                        background-color: #ffffffc8;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 70%;
+                            margin: auto;
+                            display: block;
+                            object-fit: cover;
+                        }
+                    }
+                    .attractaInfo{
+                        width: 60%;
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        .itName{
+                            font-size: 0.8rem;
+                            color: var(--text-color-dark);
+                            margin-bottom: 0px;
+                            margin-top: 10px;
+                        }
+                        .itPrice{
+                            font-size: 0.8rem;
+                            color: var(--text-color-dark);
+                            margin-bottom: -5px;
+                        }
+                        .itRatings{
+                            .ovRatings{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+            .ovPatchyOne{
+                top: 15%;
+                left: 25%;
+            }
+            .ovPatchyTwo{
+                top: 17%;
+                left: 60%;
+            }
+            .ovPatchyThree{
+                top: 75%;
+                left: 48%;
             }
         }
     }

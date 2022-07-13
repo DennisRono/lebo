@@ -26,6 +26,11 @@
   transform: translate(-50%, -50%);
   z-index: 4;
 }
+@media (max-width: 500px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .landingOneCenterImage {
+    display: none !important;
+  }
+}
 .landingOne .landingOneWrapper .landingOneBackParent .landingOneCenterImage img {
   height: 100%;
   width: 100%;
@@ -108,6 +113,21 @@
     font-size: 16rem;
   }
 }
+@media (max-width: 1000px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText {
+    font-size: 12rem;
+  }
+}
+@media (max-width: 850px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText {
+    font-size: 10rem;
+  }
+}
+@media (max-width: 700px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText {
+    font-size: 8rem;
+  }
+}
 .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText span {
   color: var(--text-color-light);
 }
@@ -141,4 +161,69 @@
   color: var(--text-color-light);
   cursor: pointer;
   background-color: var(--back-color-right-lOne);
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree {
+  position: absolute;
+  z-index: 5;
+  width: 250px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.3882352941);
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  height: 100%;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaImagio, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaImagio, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaImagio {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.7843137255);
+  position: relative;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaImagio img, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaImagio img, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaImagio img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  margin: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaInfo, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaInfo, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaInfo {
+  width: 60%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaInfo .itName, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaInfo .itName, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaInfo .itName {
+  font-size: 0.8rem;
+  color: var(--text-color-dark);
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaInfo .itPrice, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaInfo .itPrice, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaInfo .itPrice {
+  font-size: 0.8rem;
+  color: var(--text-color-dark);
+  margin-bottom: -5px;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne .PatchyOvWrapper .attractaInfo .itRatings .ovRatings, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo .PatchyOvWrapper .attractaInfo .itRatings .ovRatings, .landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree .PatchyOvWrapper .attractaInfo .itRatings .ovRatings {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyOne {
+  top: 15%;
+  left: 25%;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyTwo {
+  top: 17%;
+  left: 60%;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .ovPatchyThree {
+  top: 75%;
+  left: 48%;
 }/*# sourceMappingURL=landingOne.css.map */
