@@ -104,6 +104,25 @@
                             }
                         }
                     }
+                    .leftBottomAc{
+                        position: absolute;
+                        top: 67%;
+                        left: 11.5%;
+                        width: 32%;
+                        height: min-content;
+                        p{
+                            font-size: 1.2rem;
+                            color: #6c6c6c;
+                            margin-bottom: 50px;
+                        }
+                        .leftBottomShop{
+                            padding: 15px 60px;
+                            border-radius: 23px;
+                            color: var(--text-color-light);
+                            cursor: pointer;
+                            background-color: var(--back-color-right-lOne);
+                        }
+                    }
                 }
             }
         }

@@ -105,4 +105,25 @@
 }
 .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText span {
   color: var(--text-color-light);
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc {
+  position: absolute;
+  top: 67%;
+  left: 11.5%;
+  width: 32%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc p {
+  font-size: 1.2rem;
+  color: #6c6c6c;
+  margin-bottom: 50px;
+}
+.landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc .leftBottomShop {
+  padding: 15px 60px;
+  border-radius: 23px;
+  color: var(--text-color-light);
+  cursor: pointer;
+  background-color: var(--back-color-right-lOne);
 }/*# sourceMappingURL=landingOne.css.map */
