@@ -103,6 +103,11 @@
   font-size: 20rem;
   color: var(--back-color-right-lOne);
 }
+@media (max-width: 1440px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText {
+    font-size: 16rem;
+  }
+}
 .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .txtCachy .ChachyText span {
   color: var(--text-color-light);
 }
@@ -115,10 +120,20 @@
   height: -moz-min-content;
   height: min-content;
 }
+@media (max-width: 1440px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc {
+    left: 6.5%;
+  }
+}
 .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc p {
   font-size: 1.2rem;
   color: #6c6c6c;
   margin-bottom: 50px;
+}
+@media (max-width: 1440px) {
+  .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc p {
+    font-size: 1rem;
+  }
 }
 .landingOne .landingOneWrapper .landingOneBackParent .textOverlay .overlayWapper .leftBottomAc .leftBottomShop {
   padding: 15px 60px;

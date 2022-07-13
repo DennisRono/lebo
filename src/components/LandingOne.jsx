@@ -42,7 +42,7 @@ const LandingOne = () => {
                             </div>
                             <div className="leftBottomAc">
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque, veritatis, id repellendus minima, nihil error voluptatum porro commodi corrupti neque perspiciatis placeat sit dolor dignissimos tenetur maiores! Labore reprehenderit ea id obcaecati vel aspernatur. Unde, aperiam sint! Deserunt, recusandae.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque, veritatis, id repellendus minima, nihil error voluptatum porro commodi corrupti neque perspiciatis placeat sit dolor.
                                 </p>
                                 <Link to="" className="leftBottomShop">Shop now</Link>
                             </div>

@@ -96,6 +96,9 @@
                         left: 50%;
                         transform: translate(-50%, -50%);
                         .ChachyText{
+                            @media(max-width:1440px){
+                                font-size: 16rem;
+                            }
                             text-transform: uppercase;
                             font-size: 20rem;
                             color: var(--back-color-right-lOne);
@@ -105,12 +108,18 @@
                         }
                     }
                     .leftBottomAc{
+                        @media(max-width: 1440px){
+                            left: 6.5%;
+                        }
                         position: absolute;
                         top: 67%;
                         left: 11.5%;
                         width: 32%;
                         height: min-content;
                         p{
+                            @media(max-width: 1440px){
+                                font-size: 1rem;
+                            }
                             font-size: 1.2rem;
                             color: #6c6c6c;
                             margin-bottom: 50px;
